@@ -1,4 +1,4 @@
-import React, { useState, setState } from "react";
+import React from "react";
 
 // css
 import './ProfileCard.css';
@@ -12,14 +12,11 @@ import cvIcon from "../../assets/icon-cv.png";
 // import lightbulbOFF from "../../assets/light-bulb-off.png";
 
 export default function Project () {
-    const [stateLightBulb, SetStateLightBulb] = useState(false);
+    // const [stateLightBulb, SetStateLightBulb] = useState(false);
 
-    function turnOnTheLight() {
-      SetStateLightBulb(!stateLightBulb);
-    };
-
-    {/* <Link to="/projects">Projects</Link> */}
-    {/* <Link to="/">About me</Link> */}
+    // function turnOnTheLight() {
+    //   SetStateLightBulb(!stateLightBulb);
+    // };
 
     return (
         <div className="ProfileCard">
@@ -41,12 +38,13 @@ export default function Project () {
 
             {/* OFICIO */}
             <p className="profilecard-job">Full Stack Developer</p>
+            <a href="mailto:mauroncioci@gmail.com" className="profilecard-mail">mauroncioci@gmail.com</a>
 
             {/* LINKS */}
             <div className="profilecard-links">
-                <img className="profilecard-icons-links" src={linkedinIcon} alt='linkedin-icon' />
-                <img className="profilecard-icons-links" src={githubIcon} alt='github-icon' />
-                <img className="profilecard-icons-links-square" src={cvIcon} alt='cv-icon' />
+                <img title="Linkedin" className="profilecard-icons-links" src={linkedinIcon} alt='linkedin-icon' />
+                <img title="Github" className="profilecard-icons-links" src={githubIcon} alt='github-icon' />
+                <img title="Download CV" className="profilecard-icons-links-square" src={cvIcon} alt='cv-icon' />
             </div>
 
 

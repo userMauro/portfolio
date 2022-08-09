@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import { Route, Routes, Link } from "react-router-dom";
+import React from "react";
+// import { Route, Routes, Link } from "react-router-dom";
 
 //
 import './App.css';
 
 // components
-import NotFound from "./components/NotFound/NotFound.js";
-import Project from "./components/ProfileCard/ProfileCard.js";
+// import NotFound from "./components/NotFound/NotFound.js";
+// import Project from "./components/ProfileCard/ProfileCard.js";
 import ProfileCard from "./components/ProfileCard/ProfileCard.js";
-import AboutMe from "./components/AboutMe/AboutMe";
+// import AboutMe from "./components/AboutMe/AboutMe";
 import Information from "./components/Information/Information";
 
 export default function App() {
@@ -20,13 +20,6 @@ export default function App() {
         <ProfileCard />
         <Information />
       </div>
-
-        {/* COMPONENTS */}
-        <Routes>
-          {/* <Route path="/" element={<Information />} /> */}
-          {/* <Route path="/projects" element={<Project />} /> */}
-          {/* <Route path="*" element={<NotFound />} /> */}
-        </Routes>
 
     </div>
   )

@@ -1,3 +1,63 @@
 .AboutMe {
     display: flex;
+    flex-direction: column;
+}
+
+.aboutme-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -60px;
+    margin-bottom: -80px;
+}
+
+.aboutme-hi {
+    font-size: 90px;
+    color: rgb(60, 60, 60);
+}
+
+.aboutme-description {
+    padding: 0px 50px 20px 50px;
+    color: rgb(60, 60, 60);
+}
+
+.aboutme-techskills {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 50px;
+    gap: 20px;
+}
+
+.aboutme-icons-links-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* padding: 20px; */
+}
+
+.aboutme-icons-links-circle:hover {
+    transform: scale(1.5);
+}
+
+.aboutme-icons-links-square {
+    height: 40px;
+    width: 40px;
+    /* padding: 20px; */
+}
+
+.aboutme-icons-links-square:hover {
+    transform: scale(1.5);
+}
+
+.aboutme-icons-links-rectangle {
+    height: 45px;
+    width: 40px;
+    /* padding: 20px; */
+}
+
+.aboutme-icons-links-rectangle:hover {
+    transform: scale(1.5);
 }
