@@ -1,0 +1,81 @@
+.ProfileCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+.profilecard-banner {
+    height: 180px;
+    width: 100%;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(150, 0, 0, 0.5);
+    background-image: url(https://media.giphy.com/media/r2DZ7c7zrY1jO/giphy.gif);
+}
+
+.profilecard-img {
+    height: 130px;
+    width: 130px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+.profilecard-job {
+    margin-top: -20px;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.profilecard-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    gap: 3px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+    /* padding: 20px; */
+}
+
+.profilecard-icons-links {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.profilecard-icons-links:hover {
+    transform: scale(1.5);
+}
+
+.profilecard-icons-links-square {
+    height: 35px;
+    width: 30px;
+    padding: 20px;
+}
+
+.profilecard-icons-links-square:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+/* LIGHT-BULB */
+.profilecard-lightBulb-div {
+    padding: 1px;
+    /* border: 1px solid rgba(10, 10, 10, 0.1) */
+}
+
+.profilecard-lightBulb-img {
+    height: 80px;
+    width: 55px;
+}

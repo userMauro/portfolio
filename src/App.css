@@ -1,6 +1,20 @@
 .App {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* background-image: url("https://giphy.com/gifs/forest-lake-MYu6GttHVbr44"); */
+}
+
+.profile-about-projects {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 10%;
 }

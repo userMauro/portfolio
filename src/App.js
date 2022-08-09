@@ -1,42 +1,33 @@
-import React from "react";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Route, Routes, Link } from "react-router-dom";
 
+//
+import './App.css';
+
+// components
 import NotFound from "./components/NotFound/NotFound.js";
-import Home from "./components/Home/Home.js";
+import Project from "./components/ProfileCard/ProfileCard.js";
+import ProfileCard from "./components/ProfileCard/ProfileCard.js";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Information from "./components/Information/Information";
 
-// const lightbulbON = "D:\mamoproblemas\Programming\Portfolio\React Portfolio\react-portfolio\assets\light-bulbON";
-// const lightbulbOFF = "D:\mamoproblemas\Programming\Portfolio\React Portfolio\react-portfolio\assets\light-bulbOFF";
-// const switchON = "D:\mamoproblemas\Programming\Portfolio\React Portfolio\react-portfolio\assets\switchON";
-// const switchOFF = "D:\mamoproblemas\Programming\Portfolio\React Portfolio\react-portfolio\assets\switchOFF.png"
+export default function App() {
 
-
-function App() {
   return (
     <div className="App">
 
-      {/* LIGHT-BULB */}
-      {/* <div>
-        <img src="D:\mamoproblemas\Programming\Portfolio\React Portfolio\react-portfolio\assets\switchOFF.png" alt='switchOFF'/>
-        <img src={lightbulbOFF} alt='lightbulbOFF'/>
-      </div> */}
+      <div className="profile-about-projects">
+        <ProfileCard />
+        <Information />
+      </div>
 
-      {/* NAV */}
-      <header>
-        <nav>
-          <ul>
-            <li><Link to="/home">Home</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-          </ul>
-        </nav>
-      </header>
+        {/* COMPONENTS */}
+        <Routes>
+          {/* <Route path="/" element={<Information />} /> */}
+          {/* <Route path="/projects" element={<Project />} /> */}
+          {/* <Route path="*" element={<NotFound />} /> */}
+        </Routes>
 
-      {/* COMPONENTS */}
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
     </div>
   )
-}
-
-export default App;
+};

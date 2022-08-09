@@ -1,0 +1,41 @@
+.Information {
+    display: flex;
+    height: 400px;
+    width: 65%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+
+
+
+
+
+.information-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 51, 106, 0.9);
+    border-radius: 0px 0px 10px 10px;
+    justify-content: space-evenly;
+}
+
+.information-nav-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 8px;
+    width: 25%;
+    font-size: small;
+    color: white;
+    cursor: pointer;
+}
+
+.information-nav-btn:hover {
+    background-color: rgba(29, 122, 222, 0.9);
+}
