@@ -22,19 +22,22 @@ export default function AboutMe () {
     return (
         <div className="AboutMe">
 
-            <div className="aboutme-name">
+            <div className="aboutme-about">
                 <h1 className="aboutme-hi">Hi, I'm Mauro</h1>
-            </div>
-
-            <div className="aboutme-description">
-                <p>I highlight my logical-creative thinking for problem solving and my speed in learning, as well as the commitment and responsibility that I assume to the project in which I am involved. </p>
+                <p className="aboutme-country">From Buenos Aires, Argentina</p>
+                <p className="aboutme-description">
+                    I highlight my logical-creative thinking for problem solving and my speed in learning, as well as the commitment and responsibility that I assume to the project in which I am involved. 
+                </p>
+                <p className="aboutme-description">
+                    I have experience in web development (both backend and frontend) working with Javascript, Node.js and React (Native & .js) mainly. Using Git and Github for version control, SCRUM and Trello methodology.
+                </p>
             </div>
 
             <div className="aboutme-techskills">
                 <img title="JavaScript" className="aboutme-icons-links-square" src={icon_js} alt='icon-js' />
-                <img title="Node.js" className="aboutme-icons-links-circle" src={icon_nodejs} alt='icon-nodejs' />
                 <img title="HTML5" className="aboutme-icons-links-rectangle" src={icon_html} alt='icon_html' />
                 <img title="CSS3" className="aboutme-icons-links-rectangle" src={icon_css} alt='icon_css' />
+                <img title="Node.js" className="aboutme-icons-links-circle" src={icon_nodejs} alt='icon-nodejs' />
                 <img title="React.js | React Native" className="aboutme-icons-links-circle" src={icon_react} alt='icon_react' />
                 <img title="Redux" className="aboutme-icons-links-square" src={icon_redux} alt='icon_redux' />
                 <img title="Express.js" className="aboutme-icons-links-circle" src={icon_express} alt='icon_express' />

@@ -1,35 +1,56 @@
 .AboutMe {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    /* padding: 30px; */
 }
 
-.aboutme-name {
+.aboutme-about {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: -60px;
-    margin-bottom: -80px;
+    padding-left: 10px;
 }
 
 .aboutme-hi {
-    font-size: 90px;
+    display: flex;
+    font-size: 50px;
     color: #023047;
-    /* color: rgb(60, 60, 60); */
+    justify-content: center;
+    margin: 30px;
+}
+
+.aboutme-country {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    margin-left: 20px;
+    /* margin-bottom: 80px; */
+    color: #fb8500;
 }
 
 .aboutme-description {
-    padding: 0px 50px 20px 50px;
-    color: rgb(60, 60, 60);
+    margin-top: 5px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+    /* background-color: green; */
 }
 
 .aboutme-techskills {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: center;
-    padding-left: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 10px;
+    /* padding: 50px; */
     padding-right: 50px;
-    gap: 20px;
+    padding-left: 10px;
+    padding-top: 65px;
+    align-items: center;
+    height: 240px;
+    gap: 10px;
 }
 
 .aboutme-icons-links-circle {

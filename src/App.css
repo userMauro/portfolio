@@ -19,3 +19,16 @@
     margin-right: 10%;
     gap: 10%;
 }
+
+.app-copyright {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 50px;
+}
+
+.app-copyright:hover {
+    scale: 1.5;
+    cursor: pointer;
+    animation: ease-in-out(0.77, 0, 0.175, 1);
+    animation-iteration-count:infinite;
+}
