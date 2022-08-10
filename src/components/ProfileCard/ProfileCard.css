@@ -5,15 +5,18 @@
     height: 400px;
     width: 25%;
     border-radius: 10px;
-    box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 3px 3px 12px 10px rgba(0, 0, 0, 0.9);
 }
 
 .profilecard-banner {
     height: 180px;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
-    background-color: rgba(150, 0, 0, 0.5);
-    background-image: url(https://media.giphy.com/media/3osxYsSSxjWhZw0BUY/giphy.gif);
+    background-color: #fd9e02;
+    /* background-image: url(https://media.giphy.com/media/3osxYsSSxjWhZw0BUY/giphy.gif); */
+    background-position: center;
+    
 }
 
 .profilecard-img {
@@ -22,10 +25,6 @@
     border: 3px solid white;
     border-radius: 50%;
     margin-top: -70px;
-}
-
-.profilecard-img:hover {
-    transform: scale(1.3);
 }
 
 .profilecard-job {

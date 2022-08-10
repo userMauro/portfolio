@@ -5,7 +5,8 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    /* background-image: url("https://giphy.com/gifs/forest-lake-MYu6GttHVbr44"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://fondosmil.com/fondo/34269.jpg);
+    position: absolute;
 }
 
 .profile-about-projects {

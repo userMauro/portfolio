@@ -17,7 +17,6 @@ import icon_mongodb from "../../assets/tech-skills/icon-mongodb.png";
 import icon_mongoose from "../../assets/tech-skills/icon-mongoose.jpg";
 import icon_cloudinary from "../../assets/tech-skills/icon-cloudinary.png";
 
-
 export default function AboutMe () {
 
     return (

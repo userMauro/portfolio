@@ -1,0 +1,20 @@
+.Certificates {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    padding: 30px;
+}
+
+.certificates-img {
+    border-radius: 5px;
+    box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.4);
+    height: 150px;
+    width: 150px;
+    filter: rgb(58, 58, 58);
+    filter: grayscale();
+}
+
+.certificates-img:hover {
+    filter: none;
+    transition: filter .6s;
+}
