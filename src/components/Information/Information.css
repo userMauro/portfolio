@@ -4,7 +4,7 @@
     width: 65%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1);
-    box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 12px 5px rgba(0, 0, 0, 0.9);
     position: relative;
 }
 
