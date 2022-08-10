@@ -19,7 +19,7 @@ export default function App() {
       </div>
 
       <footer>
-        <img title="Copyright - Mauro Núñez Cioci - 2022" className="app-copyright" src={icon_copyright} alt='icon_copyright' />
+        <img title="© Mauro Núñez Cioci, 2022" className="app-copyright" src={icon_copyright} alt='icon_copyright' />
       </footer>
 
     </div>
