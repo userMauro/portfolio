@@ -23,10 +23,11 @@ export default function Information () {
                 <Route path="*" element={<NotFound />} />
             </Routes>
             
+            {/* NAVBAR */}
             <div className="information-nav">
-                <Link to="/" className="information-nav-btn">About me</Link>
-                <Link to="/projects" className="information-nav-btn">Projects</Link>
-                <Link to="/certificates" className="information-nav-btn">Certificates</Link>
+                <Link to="/" className="information-nav-btn-aboutme">About me</Link>
+                <Link to="/projects" className="information-nav-btn-projects">Projects</Link>
+                <Link to="/certificates" className="information-nav-btn-certificates">Certificates</Link>
             </div>
             
         </div>

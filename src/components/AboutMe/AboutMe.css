@@ -14,7 +14,8 @@
 
 .aboutme-hi {
     font-size: 90px;
-    color: rgb(60, 60, 60);
+    color: #023047;
+    /* color: rgb(60, 60, 60); */
 }
 
 .aboutme-description {
@@ -37,24 +38,12 @@
     border-radius: 50%;
 }
 
-.aboutme-icons-links-circle:hover {
-    transform: scale(1.5);
-}
-
 .aboutme-icons-links-square {
     height: 40px;
     width: 40px;
 }
 
-.aboutme-icons-links-square:hover {
-    transform: scale(1.5);
-}
-
 .aboutme-icons-links-rectangle {
     height: 45px;
     width: 40px;
-}
-
-.aboutme-icons-links-rectangle:hover {
-    transform: scale(1.5);
 }

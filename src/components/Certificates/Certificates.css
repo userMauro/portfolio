@@ -3,6 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     padding: 30px;
+    justify-items: center;
 }
 
 .certificates-img {
