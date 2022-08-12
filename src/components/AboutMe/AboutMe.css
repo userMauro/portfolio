@@ -3,7 +3,6 @@
     flex-direction: row;
     height: 100%;
     width: 100%;
-    /* padding: 30px; */
 }
 
 .aboutme-about {
@@ -68,4 +67,26 @@
 .aboutme-icons-links-rectangle {
     height: 45px;
     width: 40px;
+}
+
+
+
+/* media querys */
+
+@media (max-width:1150px) {
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        /* overflow: scroll; */
+        height: 100%;
+    }
+
+    .aboutme-techskills {
+        padding-top: 0px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        padding: 30px;
+        padding-bottom: 60px;
+    }
 }

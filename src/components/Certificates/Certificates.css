@@ -1,16 +1,20 @@
 .Certificates {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr)); */
     width: 100%;
-    padding: 30px;
-    justify-items: center;
+    padding: 3%;
+    gap: 3%;
+    margin-bottom: 3%;
+    /* align-content: center; */
+    align-items: center;
 }
 
 .certificates-img {
     border-radius: 5px;
     box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.4);
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     filter: rgb(58, 58, 58);
     filter: grayscale();
 }
@@ -18,4 +22,12 @@
 .certificates-img:hover {
     filter: none;
     transition: filter .6s;
+}
+
+@media (max-width:1150px) {
+    .Certificates {
+        height: 82%;
+        grid-template-columns: repeat(2, 1fr);
+        overflow-y: scroll;
+    }
 }

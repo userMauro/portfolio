@@ -22,3 +22,17 @@
     filter: none;
     transition: filter .6s;
 }
+
+@media (max-width:1150px) {
+    .Projects {
+        overflow-y: scroll;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 70%;
+    }
+
+    .projects-img {
+        height: 150px;
+        width: 150px;
+    }
+}
