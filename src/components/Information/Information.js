@@ -16,12 +16,14 @@ export default function Information () {
         <div className="Information">
 
             {/* RUTEO DE COMPONENTES */}
-            <Routes>
-                <Route path="/" element={<AboutMe />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/certificates" element={<Certificates />}  />
-                <Route path="*" element={<NotFound />} />
-            </Routes>
+            <div className="information-container">
+                <Routes>
+                    <Route path="/" element={<AboutMe />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/certificates" element={<Certificates />}  />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+            </div>
             
             {/* NAVBAR */}
             <div className="information-nav">
